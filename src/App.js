@@ -64,7 +64,7 @@
 
           {/* Footer */}
           <footer className="App-footer">
-           <p>© 2024 My React App. All rights reserved.</p>
+           <p>Copyright © 2024 My React App. All rights reserved.<br/>Powered By Muhammad Akbar Kurniawan</p>
           </footer>
       </div>
     );
