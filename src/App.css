@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-bottom: 90px;
 }
 
 .App-logo {
@@ -35,4 +36,52 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-content {
+  padding: 20px;
+  background-color: #282c34;
+  min-height: 60vh;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #282c34;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  color: #61dafb;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.6;
+}
+
+.section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 7px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
