@@ -1,6 +1,6 @@
   import React from 'react';
   import logo from './logo.svg';
-  import './App.css'; // Import your custom CSS for styling
+  import './App.css'; 
   import reactImage from './images/react.png';
   import nodeImage from './images/node.png';
   import nodereactImage from './images/nodereact.png'
@@ -37,7 +37,7 @@
         </div>
         {/* Content Section 1 */}
         <div className="section">
-            <h2>Section 1: Introduction to React</h2>
+            <h2>Introduction to React</h2>
             <p>
               React memungkinkan Anda untuk membangun antarmuka pengguna yang kompleks dari potongan kecil dan terisolasi yang disebut "komponen". Ini membuat kode Anda lebih mudah untuk dikelola dan di-debug.
             </p>
@@ -46,7 +46,7 @@
 
           {/* Content Section 2 */}
           <div className="section">
-            <h2>Section 2: Introduction to Node.js</h2>
+            <h2>Introduction to Node.js</h2>
             <p>
               Node.js menggunakan model I/O non-blocking dan berbasis event, yang membuatnya sangat efisien dan cocok untuk aplikasi yang membutuhkan skala besar dan koneksi simultan.
             </p>
@@ -55,7 +55,7 @@
 
           {/* Content Section 3 */}
           <div className="section">
-            <h2>Section 3: Combining React and Node.js</h2>
+            <h2>Combining React and Node.js</h2>
             <p>
               Dengan menggunakan React di front-end dan Node.js di back-end, Anda bisa membangun aplikasi full-stack dengan JavaScript di kedua sisi, yang dapat meningkatkan efisiensi dan konsistensi dalam pengembangan aplikasi.
             </p>
